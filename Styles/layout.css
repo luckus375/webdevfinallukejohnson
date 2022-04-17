@@ -1,0 +1,154 @@
+/*Luke Johnson - Last edited 04/13/2022*/
+body {
+    background-color: black;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+.common {
+    position: absolute;
+}
+.tabheader {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+}
+.tabsubheader {
+    float: right;
+    color: grey;
+    background-color: black;
+    border: solid 2px rgb(0, 255, 76);
+    right: 10px;
+    position: absolute;
+}
+.link {
+    color: grey;
+    text-decoration: none;
+}
+.link:hover {
+    color: white;
+    text-decoration: underline;
+}
+.tabtitle {
+    color: rgb(0, 255, 76);
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 600px;
+    background-color: black;
+}
+.tabmain {
+    top: 114px;
+    right: 5px;
+    left: 5px;
+    width: auto;
+    height: auto;
+    bottom: 64px;
+}
+.tabfooter {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 10px;
+    width: auto;
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    position: fixed;
+}
+.tabbox1 {
+    background-color: white;
+    height: 380px;
+    width: 500px;
+    overflow: hidden;
+    border: solid 2px #000;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+.tabbox2 {
+    background-color: white;
+    height: 380px;
+    width: 500px;
+    overflow: hidden;
+    border: solid 2px #000;
+    margin-left: 800px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+.tabbox3 {
+    background-color: white;
+    height: 380px;
+    width: 500px;
+    overflow: hidden;
+    border: solid 2px #000;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+.tabbox4 {
+    background-color: white;
+    height: 380px;
+    width: 500px;
+    overflow: hidden;
+    border: solid 2px #000;
+    margin-left: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+}
+.tab1title {
+    color:rgb(0, 255, 76);
+    margin-left: 100px;
+    position: absolute;
+}
+.tab2title {
+    color:rgb(0, 255, 76);
+    right: 100px;
+    margin-left: 800px;
+}
+.tab3title {
+    color:rgb(0, 255, 76);
+    margin-left: 100px;
+    margin-top: 500px;
+    position: absolute;
+}
+.tab4title {
+    color:rgb(0, 255, 76);
+    right: 100px;
+    margin-top: 500px;
+    margin-left: 800px;
+}
+.tabcaption1 {
+    background-color: gray;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    margin-left: 100px;
+}
+.tabcaption2 {
+    background-color: gray;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    margin-left: 800px;
+}
